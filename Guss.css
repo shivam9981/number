@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.input{
+    width: 15rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: large;
+    outline: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    /* margin: 1rem; */
+}
+.btn{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin: 1rem 0rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
